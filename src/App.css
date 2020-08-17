@@ -1,0 +1,7 @@
+/* All this file does is set the width of the main container, rest of the styling is inside of components in Style objects which are then inserted inline
+I did it this way because it's an easy workflow being in the same file, and it's also nice for modularity. */
+
+.container {
+  margin: 75px auto 0 auto;
+  max-width: 1200px;
+}
