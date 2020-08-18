@@ -2,6 +2,8 @@
 
 Hello, my name is Cole Samuelsen.
 
+This is a combined repository including a frontend side, and a backend side. The firebase_backend_functions folder is really a project in its own right. It's an API you call to execute cloud functions and access a firebase database. Aside from that one folder, the rest of it is a react front-end. I placed the cloud function project in this repo and renamed it so people could access both the frontend and backend side of the project together.
+
 You are looking at the very generically titled "Social Media App", and that's because I've had a lot of ideas on
 where I was eventually going to go with this project. Originally it was going to be a debate App where a prompt comes up and two sides of either
 individuals or teams argue either sides of debates and people could vote on who won. Today the App displays a daily goal which in some way benefits the world, and allows users to comment on threads and talk to one another. I liked the idea of building a bit of a social media platform that was aimed towards making the world a better place in some way, as I think current companies like Facebook and Twitter really miss that mark.
