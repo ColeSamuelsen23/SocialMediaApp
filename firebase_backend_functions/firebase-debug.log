@@ -1,0 +1,18 @@
+[debug] [2020-03-10T20:12:05.655Z] ----------------------------------------------------------------------
+[debug] [2020-03-10T20:12:05.656Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\csamu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-03-10T20:12:05.656Z] CLI Version:   7.14.0
+[debug] [2020-03-10T20:12:05.656Z] Platform:      win32
+[debug] [2020-03-10T20:12:05.656Z] Node Version:  v12.16.1
+[debug] [2020-03-10T20:12:05.657Z] Time:          Tue Mar 10 2020 15:12:05 GMT-0500 (Central Daylight Time)
+[debug] [2020-03-10T20:12:05.657Z] ----------------------------------------------------------------------
+[debug] [2020-03-10T20:12:05.657Z] 
+[debug] [2020-03-10T20:12:05.667Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-10T20:12:05.667Z] > authorizing via signed-in user
+[debug] [2020-03-10T20:12:05.668Z] [iam] checking project socialapp-35d2e for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2020-03-10T20:12:05.669Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-03-10T20:12:05.669Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-03-10T20:12:06.136Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-10T20:12:06.141Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/socialapp-35d2e:testIamPermissions  
+
+[debug] [2020-03-10T20:12:06.344Z] <<< HTTP RESPONSE 200
